@@ -1,0 +1,1 @@
+scp -r . arche:Downloads/dev/short-it-dic/

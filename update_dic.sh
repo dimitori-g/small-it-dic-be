@@ -1,0 +1,1 @@
+cp dictionary.bak.csv src/main/resources/data/dictionary_upd.csv

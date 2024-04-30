@@ -1,0 +1,65 @@
+chinese,reading,english
+仪表盘,,dashboard
+队列,,queue
+应用程序,,application
+前端,,front end
+后端,,back end
+服务器,,server
+用户,,client
+图形界面,,GUI
+点击事件,,click event
+监控,,monitoring
+框架,,framework
+重构,,refactoring
+存储,,
+度量指标,,metrics
+编码,,to code
+代码,,code
+轮询,,poll
+架构,,architecture
+实现,,implementation
+配置,,configure
+节点,,node
+数据库,,database
+查询,,query
+需求,,query
+日志,,log
+文件,,file
+群组,,group
+设计模式,,design pattern
+模块,,module
+安装,,install
+批次,,batch
+模式,,schema;pattern
+提交,,commit
+顺序,,sequence
+数组,,array
+字节,,byte
+分区,,partition
+写入,,writing
+散列值,,hash
+主题,,topic
+吞吐量,,
+调优,,tuning;optimization
+优化/優化,,optimization;to optimize
+线程/線程,,thread
+编写/編寫,,to compile
+接口,,interface
+类/類,,class
+对象/對象,,object
+面向对象编程,,OOP
+封装/封裝,,encapsulation
+继承/繼承,,inherit
+多态/多態,,polymorphism
+集合,,collection
+健值對,,key-value paire
+表达式/表達式,,expression
+筛选/篩選,shāixuǎn,to filter
+过滤/過濾,,to filter;filter
+映射,,mapping
+排序,,to sort
+业务逻辑,,BL
+搭建,,to build
+部署,,to deploy;deployment
+垃圾回收器,,
+循环/循環,,loop
