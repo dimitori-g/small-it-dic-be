@@ -37,6 +37,10 @@ public class DictionaryService {
         return dictionaryRepository.findById(id).orElse(null);
     }
 
+    public List<Dictionary> findRandomWords(int count) {
+        return dictionaryRepository.findRandomWords(count);
+    }
+
     public Dictionary deleteWord(Long id) {
         Dictionary deleteWord = this.findDicEntityById(id);
         dictionaryRepository.deleteById(id);

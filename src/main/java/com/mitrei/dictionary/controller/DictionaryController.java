@@ -96,6 +96,15 @@ public class DictionaryController {
         return ResponseEntity.ok(new DictionaryResponseMany(dicEntities));
     }
 
+    @GetMapping("/random/{n}")
+    public ResponseEntity<DictionaryResponseMany> getRandomWords(@PathVariable("n") int n) {
+        List<Dictionary> words = dictionaryService.findRandomWords(n);
+        if (words.isEmpty()) {
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(new DictionaryResponseMany(words));
+    }
+
     @GetMapping("/backup")
     public ResponseEntity<String> backupDictionary() {
         try {
