@@ -37,6 +37,12 @@ public class DictionaryService {
         return dictionaryRepository.findById(id).orElse(null);
     }
 
+    public Dictionary deleteWord(Long id) {
+        Dictionary deleteWord = this.findDicEntityById(id);
+        dictionaryRepository.deleteById(id);
+        return deleteWord;
+    }
+
     public List<Dictionary> searchDicEntityByText(String text, String lang) {
         Specification<Dictionary> spec = DictionarySpecifications.searchInLanguage(text, lang);
         return dictionaryRepository.findAll(spec);

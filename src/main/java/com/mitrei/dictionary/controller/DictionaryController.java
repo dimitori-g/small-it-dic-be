@@ -70,6 +70,16 @@ public class DictionaryController {
         }
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteWord(@PathVariable Long id) {
+        try {
+            dictionaryService.deleteWord(id);
+            return ResponseEntity.ok("Word deleted successfully");
+        } catch (Exception e) {
+            return ResponseEntity.internalServerError().body(e.getMessage());
+        }
+    }
+
     @GetMapping("/search")
     public ResponseEntity<DictionaryResponseMany> searchWord(
         @RequestParam String text,
